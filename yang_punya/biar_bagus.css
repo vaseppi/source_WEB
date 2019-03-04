@@ -1,0 +1,173 @@
+body{ /*background keseluruhan web, setiap yang berada pada <body></body> */
+	background-image: url(image/background.jpg);
+	background-attachment:fixed /* bertujuan membuat background menjadi permanen, sehingga tidak ikut scroll ke bawah, atas, kiri dan kanan */
+}
+
+a{text-decoration:none;}
+
+#halaman { 
+	border:1px;
+	width:980px;
+	margin:0 auto; 
+/*	background:rgba(0,204,0, 0.8); */
+}     
+
+#header {
+	border:1px;
+	height:200px;
+	padding:10px;
+	margin-top:5px;
+}   
+
+#menu{
+	border:1px;
+	height: auto;
+	width: 500px;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:blue;
+	border-radius:20px;
+}
+
+#menu li { 
+	display:inline;  /* mengatur supaya menu menjadi shap di atur menggunakan "li" */
+}  
+
+#menu li a { /* mengatur text menu, di atur menggunakan "li dan a" */
+	text-decoration:none; /* menghilangkan garis bawah menu */
+	font-size:20px;  /* ukuran font menu */
+	margin-left:10px;  /* mengatur jarak antar font menu */
+	margin-right:10px;  /* mengatur jarak antar font menu */
+	color:white; /* warna text menu */
+	font-weight:bold; /* ketebalan font */
+	font-style:italic; /* style font header */
+	font-family:"Times New Roman", Times, serif; /* jenis font header */
+} 
+
+#menu li a:hover { 
+		color:black;  /* warna ketika cursor di arahkan ke menu */
+}
+
+#kiri { 
+	height:500px; 
+	width:250px; 
+	padding:10px;
+	background:rgba(204,0,0, 0.6);
+	float:left;
+	margin-top:10px; 
+	border-radius:20px;
+}
+     
+#tengah { 
+	height:500px; 
+	padding:10px;
+	color:white;
+	margin:10px 290px 0 290px;
+	margin-top:10px;
+	border-radius:20px;
+	background:rgba(0,0,0, 0.8);
+	font-size:18px;
+}
+
+#kanan { 
+	height:500px; 
+	padding:10px;
+	background:rgba(0,204,0, 0.8);
+	float:right;
+	width:250px; 
+	margin-top:10px; 
+	border-radius:20px;
+}
+ 
+#footer { 
+	clear:both; 
+	height:40px;
+	background:rgba(0,0,0, 0.3);
+	margin-top:10px;
+	border-radius:20px;
+}
+
+#tengah_soal { 
+	height:auto;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	border-radius:20px;
+	background:rgba(255,255,255, 0.5);
+}
+
+ #didalam_tengah_soal { 
+	height:auto;
+	width:980px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	border-radius:20px;
+	background:#;
+}  
+
+#pilihan_soal li { 
+	display:inline;  /* mengatur supaya menu menjadi shap di atur menggunakan "li" */
+}  
+
+#pilihan_soal li a { /* mengatur text menu, di atur menggunakan "li dan a" */
+	text-decoration:none; /* menghilangkan garis bawah menu */
+	font-size:20px;  /* ukuran font menu */
+	margin-left:10px;  /* mengatur jarak antar font menu */
+	margin-right:10px;  /* mengatur jarak antar font menu */
+	color:black; /* warna text menu */
+	font-weight:bold; /* ketebalan font */
+	font-style:italic; /* style font header */
+	font-family:"Times New Roman", Times, serif; /* jenis font header */
+} 
+
+#pilihan_soal li a:hover { 
+		color:blue;  /* warna ketika cursor di arahkan ke menu */
+}
+
+#form_login{
+	height:500px; 
+	width:500px;
+	padding:10px;
+	margin-top:10px;
+	border-radius:20px;
+	background:rgba(255,255,255, 0.5);
+}
+
+.style input[type="text"],
+.style input[type="password"],
+.style select {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background:rgba(0,0,0, 0.3);
+	border: none;
+	border-radius:20px;
+	font-size: 16px;
+	outline: 0;
+	padding: 7px;
+	width: 50%;
+	box-sizing: border-box; 
+	color:#fff; /* warna text kotak */
+	text-align:center;
+}
+.style input[type="submit"]{
+	width: 30%;
+	padding: 10px;
+	background:rgba(0,204,0, 0.8);
+	border: 2px solid #f2f2f2;
+	border-radius:20px;
+	font-size:16px;
+}
+
+#menu_admin {font-size:16px;margin:10px 0 20px 0;font-weight:bold}
+#menu_admin a {color:#fff}
+#menu_admin li {display:inline;padding:5px 10px;background:#66cccc;border-radius:3px; margin-left:auto; margin-right:auto;
+-moz-transition:all .8s ease-in-out;-ms-transition:all .8s ease-in-out;-o-transition:all .8s ease-in-out;-webkit-transition:all .8s ease-in-out;transition:all .8s ease-in-out}
+#menu_admin li+li {background:#99cc00;}
+#menu_admin li+li+li {background:#996633;}
+#menu_admin li+li+li+li {background:#6699ff;}
+#menu_admin li+li+li+li+li {background:#0099cc;}
+#menu_admin li:hover {background:#333}
+#menu_admin li a:hover { color: #fff;  /* warna ketika cursor di arahkan ke menu */}

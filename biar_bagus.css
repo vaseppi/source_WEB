@@ -1,0 +1,121 @@
+body{ /*background keseluruhan web, setiap yang berada pada <body></body> */
+	background-image: url(image/background.jpg);
+	background-attachment:fixed /* bertujuan membuat background menjadi permanen, sehingga tidak ikut scroll ke bawah, atas, kiri dan kanan */
+}
+
+a{text-decoration:none;}
+
+#halaman { 
+	border:1px;
+	width:980px;
+	margin:0 auto; 
+/*	background:rgba(0,204,0, 0.8); */
+}     
+
+#header {
+	border:1px;
+	height:200px;
+	padding:10px;
+	margin-top:5px;
+}   
+
+#menu  {font-size:16px;margin:10px 0 20px 0;font-weight:bold}
+#menu  a {color:#fff}
+#menu  li {display:inline;padding:5px 10px;background:#66cccc;border-radius:3px; margin-left:auto; margin-right:auto;
+-moz-transition:all .8s ease-in-out;-ms-transition:all .8s ease-in-out;-o-transition:all .8s ease-in-out;-webkit-transition:all .8s ease-in-out;transition:all .8s ease-in-out}
+#menu  li+li {background:#99cc00;}
+#menu  li+li+li {background:#996633;}
+#menu  li+li+li+li {background:#6699ff;}
+#menu  li+li+li+li+li {background:#0099cc;}
+#menu  li:hover {background:#333}
+#menu  li a:hover { color: #fff;  /* warna ketika cursor di arahkan ke menu */}
+
+#kiri { 
+	height:500px; 
+	width:250px; 
+	padding:10px;
+	background:rgba(204,0,0, 0.6);
+	float:left;
+	margin-top:10px; 
+	border-radius:20px;
+}
+     
+#tengah { 
+	height:500px; 
+	padding:10px;
+	color:white;
+	margin:10px 290px 0 290px;
+	margin-top:10px;
+	border-radius:20px;
+	background:rgba(0,0,0, 0.8);
+	font-size:18px;
+}   
+
+#kanan { 
+	height:500px; 
+	padding:10px;
+	background:rgba(0,204,0, 0.8);
+	float:right;
+	width:250px; 
+	margin-top:10px; 
+	border-radius:20px;
+}
+ 
+#footer { 
+	clear:both; 
+	height:40px;
+	background:rgba(0,0,0, 0.3);
+	margin-top:10px;
+	border-radius:20px;
+	color:#ffffff;
+}
+
+#tengah_soal { 
+	height:auto;
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	border-radius:20px;
+	background:rgba(255,255,255, 0.5);
+}  
+
+#pilihan_soal li { 
+	display:inline;  /* mengatur supaya menu menjadi shap di atur menggunakan "li" */
+}  
+
+#pilihan_soal li a { /* mengatur text menu, di atur menggunakan "li dan a" */
+	text-decoration:none; /* menghilangkan garis bawah menu */
+	font-size:20px;  /* ukuran font menu */
+	margin-left:10px;  /* mengatur jarak antar font menu */
+	margin-right:10px;  /* mengatur jarak antar font menu */
+	color:black; /* warna text menu */
+	font-weight:bold; /* ketebalan font */
+	font-style:italic; /* style font header */
+	font-family:"Times New Roman", Times, serif; /* jenis font header */
+} 
+
+#pilihan_soal li a:hover { 
+		color:blue;  /* warna ketika cursor di arahkan ke menu */
+}
+
+.besarin_gambar img{
+-webkit-transform:scale(0.8);
+-moz-transform:scale(0.8);
+-o-transform:scale(0.8);
+-webkit-transition-duration:0.5s;
+-moz-transition-duration:0.5s;
+-o-transition-duration:0.5s;
+opacity:0.7;margin:0 10px 5px 0
+}
+
+.besarin_gambar img:hover{
+-webkit-transform:scale(1.1);
+-moz-transform:scale(1.1);
+-o-transform:scale(1.1);
+box-shadow:0px 0px 30px gray;
+-webkit-box-shadow:0px 0px 30px gray;
+-moz-box-shadow:0px 0px 30px gray;
+opacity:1
+
+}
